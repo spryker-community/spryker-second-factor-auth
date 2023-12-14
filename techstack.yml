@@ -1,11 +1,11 @@
 repo_name: spryker-community/spryker-second-factor-auth
-report_id: 3e9c2366715bd16f481666353084a0f0
+report_id: 35c89f2c3644acdbe9efaceeb57481ca
 repo_type: Public
-timestamp: '2023-11-09T17:22:58+00:00'
-requested_by: kasparas-ufg
+timestamp: '2023-12-14T09:51:27+00:00'
+requested_by: gxjansen
 provider: github
 branch: master
-detected_tools_count: 3
+detected_tools_count: 12
 tools:
 - name: PHP
   description: A popular general-purpose scripting language that is especially suited
@@ -37,3 +37,110 @@ tools:
   detection_source: composer.json
   last_updated_by: Michael Ruoss
   last_updated_on: 2019-12-02 15:58:34.000000000 Z
+- name: bacon/bacon-qr-code
+  description: BaconQrCode is a QR code generator for PHP
+  package_url: https://packagist.org/bacon/bacon-qr-code
+  version: '2.0'
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/spryker-community/spryker-second-factor-auth/blob/master/composer.json
+  detection_source: composer.json
+  last_updated_by: Victor van Herpt
+  last_updated_on: 2022-12-13 13:50:20.000000000 Z
+- name: phpspec/prophecy
+  description: Highly opinionated mocking framework for PHP 5.3+
+  package_url: https://packagist.org/phpspec/prophecy
+  version: '1.16'
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/spryker-community/spryker-second-factor-auth/blob/master/composer.json
+  detection_source: composer.json
+  last_updated_by: Victor van Herpt
+  last_updated_on: 2022-12-13 13:50:20.000000000 Z
+- name: pragmarx/google2fa
+  description: A One Time Password Authentication package
+  package_url: https://packagist.org/pragmarx/google2fa
+  version: '8.0'
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/spryker-community/spryker-second-factor-auth/blob/master/composer.json
+  detection_source: composer.json
+  last_updated_by: Paulo Henrique Garcia
+  last_updated_on: 2022-07-20 14:23:24.000000000 Z
+- name: spryker/application
+  description: Application module
+  package_url: https://packagist.org/spryker/application
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source: composer.json
+  last_updated_by: Victor van Herpt
+  last_updated_on: 2022-12-13 13:50:20.000000000 Z
+- name: spryker/code-sniffer
+  description: Spryker Code Sniffer Standards
+  package_url: https://packagist.org/spryker/code-sniffer
+  version: 0.17.14
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/spryker-community/spryker-second-factor-auth/blob/master/composer.json
+  detection_source: composer.json
+  last_updated_by: Victor van Herpt
+  last_updated_on: 2022-12-13 13:50:20.000000000 Z
+- name: spryker/config
+  description: Config module
+  package_url: https://packagist.org/spryker/config
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source: composer.json
+  last_updated_by: Victor van Herpt
+  last_updated_on: 2022-12-13 13:50:20.000000000 Z
+- name: spryker/propel
+  description: Propel module
+  package_url: https://packagist.org/spryker/propel
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source: composer.json
+  last_updated_by: Victor van Herpt
+  last_updated_on: 2022-12-13 13:50:20.000000000 Z
+- name: spryker/silex
+  description: Silex module
+  package_url: https://packagist.org/spryker/silex
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source: composer.json
+  last_updated_by: Victor van Herpt
+  last_updated_on: 2022-12-13 13:50:20.000000000 Z
+- name: spryker/testify
+  description: Testify module
+  package_url: https://packagist.org/spryker/testify
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source: composer.json
+  last_updated_by: Victor van Herpt
+  last_updated_on: 2022-12-13 13:50:20.000000000 Z
